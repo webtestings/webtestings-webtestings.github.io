@@ -1,0 +1,26 @@
+.current {
+    color: paleturquoise;
+  }
+  /* 按钮配色 */
+.ui-btn, .ui-btn-a, .ui-btn:visited {
+  background-color: #b8d6ee !important;
+  border-color: rgb(237, 241, 241) !important;
+  color: #333 !important;
+  text-shadow: 0 1px 0 #f3f3f3 !important;
+}
+/* 普通图片、声音、视频的宽度100% */
+img, audio, video {
+  width: 100%;
+}
+
+/* 分列布局图片宽度 */
+.ui-grid-b img {
+  width: 95%;
+}
+
+/*控制banner样式*/
+.banner-logo {
+  position: static;
+  top: 20px;
+  left: 270px;
+}

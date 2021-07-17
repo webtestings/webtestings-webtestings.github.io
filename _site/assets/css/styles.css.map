@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".current {\n    color: paleturquoise;\n  }\n  /* 按钮配色 */\n.ui-btn, .ui-btn-a, .ui-btn:visited {\n  background-color: #b8d6ee !important;\n  border-color: rgb(237, 241, 241) !important;\n  color: #333 !important;\n  text-shadow: 0 1px 0 #f3f3f3 !important;\n}\n/* 普通图片、声音、视频的宽度100% */\nimg, audio, video {\n  width: 100%;\n}\n\n/* 分列布局图片宽度 */\n.ui-grid-b img {\n  width: 95%;\n}\n\n/*控制banner样式*/\n.banner-logo {\n  position: static;\n  top: 20px;\n  left: 270px;\n}\n"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,aAAa,GACrB;;AACD,cAAc;AAChB,AAAA,OAAO,EAAE,SAAS,EAAE,OAAO,CAAC,OAAO,CAAC,EAClC,gBAAgB,EAAE,kBAAkB,EACpC,YAAY,EAAE,OAAkB,CAAC,UAAU,EAC3C,KAAK,EAAE,eAAe,EACtB,WAAW,EAAE,0BAA0B,GACxC;;AACD,oCAAoC;AACpC,AAAA,GAAG,EAAE,KAAK,EAAE,KAAK,CAAC,EAChB,KAAK,EAAE,IAAI,GACZ;;AAED,sBAAsB;AACtB,AAAA,UAAU,CAAC,GAAG,CAAC,EACb,KAAK,EAAE,GAAG,GACX;;AAED,kBAAkB;AAClB,AAAA,YAAY,CAAC,EACX,QAAQ,EAAE,MAAM,EAChB,GAAG,EAAE,IAAI,EACT,IAAI,EAAE,KAAK,GACZ"
+}
